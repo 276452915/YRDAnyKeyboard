@@ -19,4 +19,4 @@ b, 兼容到 UIKeyboardType 中 </br>
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-(YRDAnyKeyboard/AnyKeyboard.gif)
+(https://raw.githubusercontent.com/276452915/YRDAnyKeyboard/master/AnyKeyboard.gif)
