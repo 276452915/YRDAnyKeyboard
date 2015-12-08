@@ -18,3 +18,5 @@ a, 删除功能建的 long press 快速删除文档框内容 </br>
 b, 兼容到 UIKeyboardType 中 </br>
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+(YRDAnyKeyboard/AnyKeyboard.gif)
