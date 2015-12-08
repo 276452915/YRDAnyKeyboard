@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  YRDAnyKeyboard
+//
+//  Created by 王亮 on 15/11/18.
+//  Copyright © 2015年 王亮. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/**
+ *  格式化字符串宏
+ *
+ */
+#define FORMATER(__FORMAT__, ...) [NSString stringWithFormat:__FORMAT__, __VA_ARGS__]
+/**
+ *  __block __weak
+ *
+ *  @param blockWeakSelf 引用名字
+ *
+ *  @return 当前self对象的弱引用且可修改的
+ */
+#define BWS(blockWeakSelf) __block __weak __typeof(&*self) blockWeakSelf = self;
+
+
+#import <objc/runtime.h>
+
+#endif /* PrefixHeader_pch */
