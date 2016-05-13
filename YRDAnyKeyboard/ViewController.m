@@ -19,8 +19,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     [self setAnyKeyboard:YRDAnyKeyboardStyleNone];
-
+    
 }
+
+
+
 #pragma mark ----------    设置自定义键盘     ------------------
 -(void)setAnyKeyboard:(YRDAnyKeyboardStyle) anyKeyBoardStyle
 {
@@ -59,4 +62,14 @@
     [self setAnyKeyboard:sender.selectedSegmentIndex];
     [self.txtfKeyword becomeFirstResponder];
  }
+
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
+    NSLog(@"range:%@",NSStringFromRange(range));
+    return YES;
+}
+
+-(void)dealloc{
+  
+}
 @end

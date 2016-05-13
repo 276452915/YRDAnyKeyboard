@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9625D6F1C158A59004F0B6F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A9625D6E1C158A59004F0B6F /* README.md */; settings = {ASSET_TAGS = (); }; };
-		A9625D711C15994B004F0B6F /* AnyKeyboard.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9625D701C15994B004F0B6F /* AnyKeyboard.gif */; settings = {ASSET_TAGS = (); }; };
+		A9625D6F1C158A59004F0B6F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A9625D6E1C158A59004F0B6F /* README.md */; };
+		A9625D711C15994B004F0B6F /* AnyKeyboard.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9625D701C15994B004F0B6F /* AnyKeyboard.gif */; };
 		A982DFC91BFC7C4400BF1FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A982DFC81BFC7C4400BF1FCA /* main.m */; };
 		A982DFCC1BFC7C4400BF1FCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A982DFCB1BFC7C4400BF1FCA /* AppDelegate.m */; };
 		A982DFCF1BFC7C4400BF1FCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A982DFCE1BFC7C4400BF1FCA /* ViewController.m */; };
@@ -17,10 +17,11 @@
 		A982DFD71BFC7C4400BF1FCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A982DFD51BFC7C4400BF1FCA /* LaunchScreen.storyboard */; };
 		A982DFE21BFC7C4400BF1FCA /* YRDAnyKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A982DFE11BFC7C4400BF1FCA /* YRDAnyKeyboardTests.m */; };
 		A982DFED1BFC7C4400BF1FCA /* YRDAnyKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A982DFEC1BFC7C4400BF1FCA /* YRDAnyKeyboardUITests.m */; };
-		A982DFFE1BFC7D6400BF1FCA /* YRDAnyKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A982DFFC1BFC7D6400BF1FCA /* YRDAnyKeyboard.m */; settings = {ASSET_TAGS = (); }; };
-		A982DFFF1BFC7D6400BF1FCA /* YRDAnyKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = A982DFFD1BFC7D6400BF1FCA /* YRDAnyKeyboard.xib */; settings = {ASSET_TAGS = (); }; };
-		A982E0031BFC7D9D00BF1FCA /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = A982E0021BFC7D9D00BF1FCA /* Aspects.m */; settings = {ASSET_TAGS = (); }; };
-		A982E0061BFC8B2F00BF1FCA /* UIButton+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A982E0051BFC8B2F00BF1FCA /* UIButton+Helper.m */; settings = {ASSET_TAGS = (); }; };
+		A982DFFE1BFC7D6400BF1FCA /* YRDAnyKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A982DFFC1BFC7D6400BF1FCA /* YRDAnyKeyboard.m */; };
+		A982DFFF1BFC7D6400BF1FCA /* YRDAnyKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = A982DFFD1BFC7D6400BF1FCA /* YRDAnyKeyboard.xib */; };
+		A982E0031BFC7D9D00BF1FCA /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = A982E0021BFC7D9D00BF1FCA /* Aspects.m */; };
+		A982E0061BFC8B2F00BF1FCA /* UIButton+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A982E0051BFC8B2F00BF1FCA /* UIButton+Helper.m */; };
+		A9B14EB91CE4958B00DB783A /* UITextField+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B14EB81CE4958B00DB783A /* UITextField+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		A982E0041BFC8B2F00BF1FCA /* UIButton+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Helper.h"; sourceTree = "<group>"; };
 		A982E0051BFC8B2F00BF1FCA /* UIButton+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Helper.m"; sourceTree = "<group>"; };
 		A982E0071BFC958D00BF1FCA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A9B14EB71CE4958B00DB783A /* UITextField+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Helper.h"; sourceTree = "<group>"; };
+		A9B14EB81CE4958B00DB783A /* UITextField+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 			children = (
 				A982DFFB1BFC7D6400BF1FCA /* YRDAnyKeyboard.h */,
 				A982DFFC1BFC7D6400BF1FCA /* YRDAnyKeyboard.m */,
+				A9B14EB71CE4958B00DB783A /* UITextField+Helper.h */,
+				A9B14EB81CE4958B00DB783A /* UITextField+Helper.m */,
 				A982DFFD1BFC7D6400BF1FCA /* YRDAnyKeyboard.xib */,
 				A982E0041BFC8B2F00BF1FCA /* UIButton+Helper.h */,
 				A982E0051BFC8B2F00BF1FCA /* UIButton+Helper.m */,
@@ -318,6 +323,7 @@
 				A982E0031BFC7D9D00BF1FCA /* Aspects.m in Sources */,
 				A982E0061BFC8B2F00BF1FCA /* UIButton+Helper.m in Sources */,
 				A982DFCF1BFC7C4400BF1FCA /* ViewController.m in Sources */,
+				A9B14EB91CE4958B00DB783A /* UITextField+Helper.m in Sources */,
 				A9625D6F1C158A59004F0B6F /* README.md in Sources */,
 				A982DFCC1BFC7C4400BF1FCA /* AppDelegate.m in Sources */,
 				A982DFC91BFC7C4400BF1FCA /* main.m in Sources */,
@@ -417,7 +423,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "2732d21d-cdea-44a9-a713-0beb616970eb";
+				PROVISIONING_PROFILE = "04c646b7-1067-4587-8d07-33d1a3759371";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,7 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ning tang (GC5D2Y5P8X)";
 				GCC_PREFIX_HEADER = YRDAnyKeyboard/PrefixHeader.pch;
 				INFOPLIST_FILE = YRDAnyKeyboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

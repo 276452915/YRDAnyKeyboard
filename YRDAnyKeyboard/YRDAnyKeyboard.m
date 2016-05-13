@@ -7,6 +7,7 @@
 //
 
 #import "YRDAnyKeyboard.h"
+#import "UITextField+Helper.h"
 
 @interface YRDAnyKeyboard()
 @property (nonatomic,assign) id<UITextInput> textInputDelegate;
@@ -68,8 +69,10 @@
  */
 - (IBAction)pressAction:(UIButton *)sender forEvent:(UIEvent *)event {
 
-    NSUInteger loc = [self.txtf.text length];
-    NSRange range =NSMakeRange(loc, 0);
+    
+//    NSUInteger loc = [self.txtf.text length];
+//    NSRange range =NSMakeRange(loc, 0);
+    NSRange range = [self.txtf selectedRange];
     UIButton * btnConfirmation = [self.arrBtnKeys objectAtIndex:13];
 
     switch (sender.tag) {
@@ -114,7 +117,7 @@
             if (_delegate && [self.delegate respondsToSelector:@selector( backspaceKeyDidPressed)]) {
                 [self.delegate backspaceKeyDidPressed];
             }
-            loc = [self.txtf.text length];
+            NSInteger loc = [self.txtf.text length];
              btnConfirmation.enabled = loc;
             break;
             

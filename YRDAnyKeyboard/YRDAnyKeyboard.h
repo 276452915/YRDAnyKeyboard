@@ -63,7 +63,7 @@ typedef NS_ENUM(NSUInteger, YRDAnyKeyboardStyle) {
 @end
 @interface YRDAnyKeyboard : UIView
 /**
- *  所有的键盘建
+ *  所有的键盘键
  */
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *arrBtnKeys;
 /**
@@ -71,11 +71,11 @@ typedef NS_ENUM(NSUInteger, YRDAnyKeyboardStyle) {
  */
 @property (nonatomic, weak) UITextField *txtf;
 /**
- *  键盘的功能建类型
+ *  键盘的功能键类型
  */
 @property (nonatomic,unsafe_unretained) YRDAnyKeyboardStyle anyKeyBoardStyle;
 /**
- *  键盘的功能建代理
+ *  键盘的功能键代理
  */
 @property (nonatomic,weak) id<YRDAnyKeyboardDelegate,UITextFieldDelegate> delegate;
 

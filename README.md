@@ -16,5 +16,5 @@ b, 屏幕实测兼容 iPhone4 +
 四, todo list
 a, 删除功能建的 long press 快速删除文档框内容 </br>
 b, 兼容到 UIKeyboardType 中 </br></br></br></br>
-
+真机演示如下:kiss:</br>
 ![Image of Demo](https://raw.githubusercontent.com/276452915/YRDAnyKeyboard/master/AnyKeyboard.gif)
