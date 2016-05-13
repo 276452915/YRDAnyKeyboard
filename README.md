@@ -16,5 +16,9 @@ b, 屏幕实测兼容 iPhone4 +
 四, todo list
 a, 删除功能建的 long press 快速删除文档框内容 </br>
 b, 兼容到 UIKeyboardType 中 </br></br></br></br>
+
+五, 修改的问题
+5.1 , 增加了UITextField (Helper)分类，修正了textField: shouldChangeCharactersInRange: replacementString: 中的range参数，更精准定位光标位置，而不是之前的textField.text的长度所在的位置，感谢大家的反馈 
+
 真机演示如下:kiss:</br>
 ![Image of Demo](https://raw.githubusercontent.com/276452915/YRDAnyKeyboard/master/AnyKeyboard.gif)
